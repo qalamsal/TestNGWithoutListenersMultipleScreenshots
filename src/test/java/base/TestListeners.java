@@ -1,5 +1,6 @@
 package base;
 
+import Tests.Test1;
 import code.TestUsingListenersInExtentReport;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -26,6 +27,7 @@ public class TestListeners implements ITestListener {
     private static ExtentReports extent=ExtentManager.createInstance();
     private static ThreadLocal<ExtentTest> extentTest=new ThreadLocal<ExtentTest>();
 
+    Date d=new Date();
 
     @Override
     public void onTestStart(ITestResult result) {
@@ -50,7 +52,7 @@ public class TestListeners implements ITestListener {
         String exceptionMessage = Arrays.toString(result.getThrowable().getStackTrace());
         extentTest.get().fail("<font color=red> Exception Occured </font>" + exceptionMessage); //exception message
 
-        WebDriver wd=((TestUsingListenersInExtentReport) result.getInstance()).wd;
+        WebDriver wd=((Test1) result.getInstance()).wd;
         takeScreenShot(wd,result.getMethod().getMethodName());
         String path=getScreenshot(result.getMethod().getMethodName());
         System.out.println(path);
@@ -106,7 +108,6 @@ public class TestListeners implements ITestListener {
 
     //takes input wd and screenshot name,
     public String getScreenshot(String methodName)  {
-        Date d=new Date();
         String fileName=methodName+ "_" + d.toString().replace(":","_").replace(" ","_")+ ".png";
         return  fileName;
     }
