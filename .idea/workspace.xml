@@ -11,10 +11,11 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/base/TestListeners.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/code/TestUsingListenersInExtentReport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/ExtentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestListeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestListeners.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/code/TestUsingExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/code/TestUsingExtentReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/code/TestUsingListenersInExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/code/TestUsingListenersInExtentReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/code/TestUsingListenersInExtentReport.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testnglisteners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testnglisteners.xml" afterDir="false" />
@@ -185,7 +186,7 @@
       <workItem from="1604008717463" duration="16871000" />
       <workItem from="1604264089136" duration="3208000" />
       <workItem from="1604343022952" duration="4101000" />
-      <workItem from="1604353170770" duration="9235000" />
+      <workItem from="1604353170770" duration="9621000" />
     </task>
     <servers />
   </component>
