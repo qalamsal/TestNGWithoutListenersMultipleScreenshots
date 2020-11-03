@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="509f2b55-ea24-41b9-80aa-5dae07db96f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/extent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/failTest_Fri_Oct_30_14_09_45_CDT_2020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/TestListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/failTest_Fri_Oct_30_15_26_11_CDT_2020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/TestListeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/code/TestUsingListenersInExtentReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/ExtentManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/TestListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/TestListeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/code/TestUsingExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/code/TestUsingExtentReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/code/TestUsingListenersInExtentReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/code/TestUsingListenersInExtentReport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testnglisteners.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testnglisteners.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +50,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -59,12 +68,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="code" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\iot\IdeaProjects\JavaEE_Servlet_With_Maven_Mysql\ExtentReport_TestNg_Maven_Example" />
       <recent name="C:\Users\iot\IdeaProjects\JavaEE_Servlet_With_Maven_Mysql\ExtentReport_TestNg_Maven_Example\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/test1.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/testng.xml">
     <configuration name="C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/test1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExtentReport_TestNg_Maven_Example" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/test1.xml" />
@@ -129,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUsingExtentReport" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUsingExtentReport.failTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ExtentReport_TestNg_Maven_Example" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +151,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="code" />
       <option name="MAIN_CLASS_NAME" value="code.TestUsingExtentReport" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="failTest2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/test1.xml" />
-        <item itemvalue="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/testnglisteners.xml" />
         <item itemvalue="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/testnglisteners.xml" />
         <item itemvalue="TestNG.TestUsingExtentReport (1)" />
-        <item itemvalue="TestNG.TestUsingExtentReport" />
+        <item itemvalue="TestNG.TestUsingExtentReport.failTest2" />
+        <item itemvalue="TestNG.C:/Users/iot/IdeaProjects/JavaEE_Servlet_With_Maven_Mysql/ExtentReport_TestNg_Maven_Example/test1.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +182,10 @@
       <workItem from="1603397355267" duration="1260000" />
       <workItem from="1603402891554" duration="6752000" />
       <workItem from="1603665105420" duration="25854000" />
-      <workItem from="1604008717463" duration="13617000" />
+      <workItem from="1604008717463" duration="16871000" />
+      <workItem from="1604264089136" duration="3208000" />
+      <workItem from="1604343022952" duration="4101000" />
+      <workItem from="1604353170770" duration="9235000" />
     </task>
     <servers />
   </component>
@@ -197,42 +213,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604079169115" />
-    <state width="1367" height="122" key="GridCell.Tab.0.bottom" timestamp="1604089570229">
+    <state x="664" y="119" key="#xdebugger.evaluate" timestamp="1604346738518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604089570229" />
+    <state x="664" y="119" key="#xdebugger.evaluate/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604346738518" />
+    <state width="1367" height="232" key="GridCell.Tab.0.bottom" timestamp="1604363941830">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="232" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604363941830" />
     <state width="1921" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1603398615586" />
-    <state width="1367" height="122" key="GridCell.Tab.0.center" timestamp="1604089570229">
+    <state width="1367" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604209720334" />
+    <state width="1367" height="232" key="GridCell.Tab.0.center" timestamp="1604363941830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="122" key="GridCell.Tab.0.center/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604089570229" />
+    <state width="1367" height="232" key="GridCell.Tab.0.center/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604363941830" />
     <state width="1921" height="186" key="GridCell.Tab.0.center/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1603398615585" />
-    <state width="1367" height="122" key="GridCell.Tab.0.left" timestamp="1604089570228">
+    <state width="1367" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604209720333" />
+    <state width="1367" height="232" key="GridCell.Tab.0.left" timestamp="1604363941830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="122" key="GridCell.Tab.0.left/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604089570228" />
+    <state width="1367" height="232" key="GridCell.Tab.0.left/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604363941830" />
     <state width="1921" height="186" key="GridCell.Tab.0.left/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1603398615585" />
-    <state width="1367" height="122" key="GridCell.Tab.0.right" timestamp="1604089570229">
+    <state width="1367" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604209720333" />
+    <state width="1367" height="232" key="GridCell.Tab.0.right" timestamp="1604363941830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="122" key="GridCell.Tab.0.right/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604089570229" />
+    <state width="1367" height="232" key="GridCell.Tab.0.right/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604363941830" />
     <state width="1921" height="186" key="GridCell.Tab.0.right/0.0.1366.728/1366.-420.1920.1040@1366.-420.1920.1040" timestamp="1603398615586" />
-    <state width="1367" height="131" key="GridCell.Tab.1.bottom" timestamp="1604010773278">
+    <state width="1367" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604209720334" />
+    <state width="1367" height="231" key="GridCell.Tab.1.bottom" timestamp="1604353140292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="131" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604010773278" />
-    <state width="1367" height="131" key="GridCell.Tab.1.center" timestamp="1604010773278">
+    <state width="1367" height="231" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604353140292" />
+    <state width="1367" height="132" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604209720330" />
+    <state width="1367" height="231" key="GridCell.Tab.1.center" timestamp="1604353140291">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="131" key="GridCell.Tab.1.center/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604010773278" />
-    <state width="1367" height="131" key="GridCell.Tab.1.left" timestamp="1604010773278">
+    <state width="1367" height="231" key="GridCell.Tab.1.center/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604353140291" />
+    <state width="1367" height="132" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604209720330" />
+    <state width="1367" height="231" key="GridCell.Tab.1.left" timestamp="1604353140291">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="131" key="GridCell.Tab.1.left/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604010773278" />
-    <state width="1367" height="131" key="GridCell.Tab.1.right" timestamp="1604010773278">
+    <state width="1367" height="231" key="GridCell.Tab.1.left/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604353140291" />
+    <state width="1367" height="132" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604209720330" />
+    <state width="1367" height="231" key="GridCell.Tab.1.right" timestamp="1604353140292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="131" key="GridCell.Tab.1.right/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604010773278" />
+    <state width="1367" height="231" key="GridCell.Tab.1.right/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604353140292" />
+    <state width="1367" height="132" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604209720330" />
+    <state x="391" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1604264096969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604264096969" />
     <state x="1422" y="-326" width="1015" height="706" maximized="true" key="dock-window-1" timestamp="1604084297960">
       <screen x="1366" y="-420" width="1920" height="1040" />
     </state>
@@ -241,23 +273,28 @@
       <screen x="1366" y="-420" width="1920" height="1040" />
     </state>
     <state x="1793" y="-71" width="1015" height="513" maximized="true" key="dock-window-2/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604084939093" />
-    <state x="65" y="69" key="new project wizard" timestamp="1603467897266">
+    <state x="47" y="0" key="new project wizard" timestamp="1604359409607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="69" key="new project wizard/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1603467897266" />
+    <state x="47" y="0" key="new project wizard/0.0.1366.728/1366.-420.1920.1040@0.0.1366.728" timestamp="1604359409607" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java</url>
-          <line>95</line>
+          <line>115</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/code/TestUsingExtentReport.java</url>
-          <line>93</line>
+          <line>113</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/base/TestListeners.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

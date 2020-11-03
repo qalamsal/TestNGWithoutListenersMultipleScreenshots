@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <!-- can't set multiple <suite> in a xml file-->
 <!-- will call all the packages under _6TestNG, where the groups set as Regression -->
-<suite name="NormalTest" verbose="1" >
+<suite name="NormalTest" verbose="1" parallel="classes">
     <listeners>
         <listener class-name="base.TestListeners"></listener>
     </listeners>
     <test name="Test">
         <classes>
-            <!--<package name="code._6TestNG._1Intro" /> -->
+<!--            <package name="code._6TestNG._1Intro" /> -->
             <class name="Tests.Test1" />  <!--every thing in _6TestNg -->
         </classes>
     </test>

@@ -19,11 +19,9 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.SkipException;
 import org.testng.annotations.*;
-import org.testng.reporters.FailedReporter;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -50,10 +48,14 @@ public class TestUsingExtentReport {
         extent.setSystemInfo("Browser","Chrome");
         extent.attachReporter(htmlReporter);
 
+
+        //conf-end
+    }
+
+    @BeforeMethod
+    public void setWd(){
         WebDriverManager.chromedriver().setup();
         wd=new ChromeDriver();
-        wd.get("http://www.gmail.com");
-        //conf-end
     }
 
     @Test(priority = 0,groups = {"Regression"})
@@ -64,17 +66,35 @@ public class TestUsingExtentReport {
     }
 
     @Test(priority = 1,groups = {"Regression"})
-    public void failTest(){
-
+    public void failTest1(){
+        wd.get("http://www.gmail.com");
         extentTest=extent.createTest("Fail Test");
-        Assert.fail("Exeucting Failed Test Method");
+        Assert.fail("Executing Failed Test Method");
+        //System.out.println("Regression1");
+        //System.out.println("Regression2");
+    }
+
+    @Test(priority = 2,groups = {"Regression"})
+    public void failTest2(){
+        wd.get("http://www.facebook.com");
+        extentTest=extent.createTest("Fail Test");
+        Assert.fail("Executing Failed Test Method");
+        //System.out.println("Regression1");
+        //System.out.println("Regression2");
+    }
+
+    @Test(priority = 3,groups = {"Regression"})
+    public void failTest22(){
+
+        wd.get("http://www.sandytech.net");
+        extentTest=extent.createTest("Fail Test");
+        Assert.fail("Executing Failed Test Method");
         //System.out.println("Regression1");
         //System.out.println("Regression2");
     }
 //
-    @Test(priority = 2,groups = {"Regression"}) //
+    @Test(priority = 3,groups = {"Regression"}) //
     public void skipTest(){
-
         extentTest=extent.createTest("Skip Test");
         //Assert.assertTrue(true);
         throw new SkipException("Skipping - This is not ready for testing ");
@@ -105,6 +125,7 @@ public class TestUsingExtentReport {
             String logText = "<b>Test Method " + methodName + "Failed</b>";
             Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
             extentTest.log(Status.FAIL, m);
+            wd.close();
         }
 
         else if(result.getStatus() == ITestResult.SUCCESS) {
@@ -127,7 +148,7 @@ public class TestUsingExtentReport {
         return  fileName;
     }
 
-    public String takeScreenShot(String methodName) throws IOException {
+    public synchronized String takeScreenShot(String methodName) throws IOException {
         String fileName=getScreenshot(methodName);
         String directory=System.getProperty("user.dir") + "\\reports\\";
         new File(directory).mkdirs();
@@ -145,8 +166,6 @@ public class TestUsingExtentReport {
 
     @AfterClass
     public void close(){
-
-        wd.quit();
         extent.flush();
         System.out.println("close called");
         //wd.quit();
